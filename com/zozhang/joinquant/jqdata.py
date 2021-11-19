@@ -3,7 +3,6 @@ import math
 from jqdatasdk import *
 from datetime import datetime
 import xlwt
-import xlrd
 
 
 def get_style(col, data=0):
