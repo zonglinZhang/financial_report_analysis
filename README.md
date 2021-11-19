@@ -6,8 +6,8 @@
 4. 申请使用jqdatasdk [jqdatasdk](https://www.joinquant.com/help/api/help#name:JQData)
 5. 进入到 jqdata.py文件第168行修改账号密码
 
-###执行
+### 执行
 直接运行jqdata.py的main方法，传入股票代码即可
 
-###限制
+### 限制
 本项目只适用于A股非地产股，银行股，券商股的财报分析
