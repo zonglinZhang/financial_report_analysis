@@ -165,7 +165,7 @@ def init_jqdata(code):
     sheet.write(0, 0, "年份")
     for i in range(datetime.now().year - 5, datetime.now().year):
         sheet.write(0, i + 1 - datetime.now().year + 5, i)
-    auth('18518904846', 'qianLIN1213')  # ID是申请时所填写的手机号；Password为聚宽官网登录密码
+    auth('***', '***')  # ID是申请时所填写的手机号；Password为聚宽官网登录密码
     # 财务指标
     indicator_q = query(
         indicator
